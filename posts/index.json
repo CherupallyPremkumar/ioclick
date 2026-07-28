@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "sync-vs-async-vs-blocking",
+    "title": "Sync vs Async vs Blocking",
+    "date": "2026-07-25",
+    "read": "4 min read",
+    "tags": [
+      "Java",
+      "Spring",
+      "System Design",
+      "Distributed Systems",
+      "Microservices"
+    ],
+    "excerpt": "“How does Service A talk to Service B?” looks simple - until CompletableFuture shows up. Two different concepts most developers blur together, and how the response actually gets back to the user."
+  },
+  {
+    "slug": "hashmap-internals-and-treeify",
+    "title": "HashMap Internals: from buckets to treeify threshold",
+    "date": "2026-07-24",
+    "read": "7 min read",
+    "tags": [
+      "Java",
+      "Data Structures",
+      "JVM"
+    ],
+    "excerpt": "How Java HashMap handles hash collisions, array resizing, and why bucket linked lists turn into red-black trees when collision depth exceeds TREEIFY_THRESHOLD.",
+    "draft": true
+  },
+  {
+    "slug": "kafka-partitioning-and-consumer-rebalance",
+    "title": "Kafka Partitioning: ordering guarantees & consumer rebalance",
+    "date": "2026-07-24",
+    "read": "6 min read",
+    "tags": [
+      "Kafka",
+      "Distributed Systems",
+      "Architecture"
+    ],
+    "excerpt": "Why message ordering is only guaranteed within a single partition, how record keys determine distribution, and what happens behind the scenes during a consumer group rebalance.",
+    "draft": true
+  },
+  {
+    "slug": "cqrs-command-query-separation",
+    "title": "CQRS: split the write model from the read model",
+    "date": "2026-07-23",
+    "read": "6 min read",
+    "tags": [
+      "System Design",
+      "Architecture",
+      "CQRS"
+    ],
+    "excerpt": "One model for reads and writes works — until they pull in opposite directions. CQRS is the decision to stop sharing that model, what it buys you, and the eventual-consistency cost most people skip.",
+    "draft": true
+  },
+  {
+    "slug": "idempotency-payment-webhooks",
+    "title": "Idempotency: the payment bug that never shows up in testing",
+    "date": "2026-07-22",
+    "read": "5 min read",
+    "tags": [
+      "Java",
+      "System Design",
+      "Reliability"
+    ],
+    "excerpt": "Webhooks retry. One payment quietly becomes three orders — and it passes every test, because in a test the webhook fires once. The fix, and the instinct to catch the next one.",
+    "draft": true
+  },
+  {
+    "slug": "sync-async-vs-blocking-nonblocking",
+    "title": "Sync vs Async vs Blocking: the distinction interviews love",
+    "date": "2026-07-24",
+    "read": "4 min read",
+    "tags": [
+      "Java",
+      "Spring",
+      "System Design",
+      "Distributed Systems",
+      "Microservices"
+    ],
+    "excerpt": "“How does Service A talk to Service B?” looks simple — until CompletableFuture shows up. Two different concepts most developers blur together, and how the response actually gets back to the user.",
+    "updated": "2026-07-25",
+    "draft": true
+  },
+  {
+    "slug": "how-javac-really-compiles",
+    "title": "How javac really compiles your code",
+    "date": "2026-07-20",
+    "read": "7 min read",
+    "tags": [
+      "Java",
+      "Compilers",
+      "JVM"
+    ],
+    "excerpt": "Running javac starts a JVM — to run the compiler, not your program. The real pipeline: Parse, Enter, Attribute, Flow, Desugar, Generate, all the way down to 0xCAFEBABE.",
+    "draft": true
+  },
+  {
+    "slug": "inside-the-jvm-runtime",
+    "title": "Inside the JVM: from Hello.class to a running program",
+    "date": "2026-07-18",
+    "read": "8 min read",
+    "tags": [
+      "Java",
+      "JVM",
+      "Memory"
+    ],
+    "excerpt": "Class loading, linking, the runtime data areas, and the one relationship everyone should be able to draw: how the stack points into the heap.",
+    "draft": true
+  }
+]

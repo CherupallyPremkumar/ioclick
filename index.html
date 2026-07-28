@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ioclick - engineering notes by Prem Kumar</title>
+<meta name="description" content="Deep, practical engineering notes on Java, JVM internals, Kafka, system design, and backend performance by Prem Kumar.">
+<meta name="keywords" content="ioclick, Prem Kumar, backend engineering, Java, JVM, Kafka, system design, software architecture">
+<meta name="author" content="Prem Kumar Cherupally">
+<meta name="robots" content="index, follow">
+<meta name="google-site-verification" content="h2IMgAbqs46APxGEYJN_zvh545dc8Cwo7Dq325Fp-GY" />
+<link rel="canonical" href="https://ioclick.me/">
+
+<!-- Open Graph / Facebook / LinkedIn -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ioclick.me/">
+<meta property="og:title" content="ioclick - engineering notes by Prem Kumar">
+<meta property="og:description" content="Deep, practical engineering notes on Java, JVM internals, Kafka, system design, and backend performance.">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ioclick - engineering notes by Prem Kumar">
+<meta name="twitter:description" content="Deep, practical engineering notes on Java, JVM internals, Kafka, system design, and backend performance.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⌘</text></svg>">
+<script>
+  (function(l) {
+    if (l.search[1] === '/' ) {
+      var decoded = l.search.slice(1).split('&').map(function(s) { 
+        return s.replace(/~and~/g, '&')
+      }).join('?');
+      window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+      );
+    }
+  }(window.location));
+</script>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<header class="site-head">
+  <a class="brand" href="/">
+    <span class="brand-mark">io</span><span class="brand-rest">click</span>
+  </a>
+  <nav class="site-nav">
+    <a href="/" data-nav>Writing</a>
+    <a href="/about" data-nav>About</a>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+      <span class="ic-sun">☀</span><span class="ic-moon">☾</span>
+    </button>
+  </nav>
+</header>
+
+<main id="app"><!-- rendered by app.js --></main>
+
+<footer class="site-foot">
+  <div class="foot-inner">
+    <span>© <span id="year"></span> ioclick</span>
+    <span class="foot-links">
+      <a href="https://www.buymeacoffee.com/ioclick" target="_blank" rel="noopener" class="bmc-foot-link">Buy me a coffee</a>
+      <a href="https://www.linkedin.com/in/cherupallypremkumar/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/CherupallyPremkumar" target="_blank" rel="noopener">GitHub</a>
+    </span>
+  </div>
+</footer>
+
+<script src="/assets/app.js"></script>
+</body>
+</html>
